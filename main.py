@@ -9,6 +9,7 @@ films = [str1, str2, str3]
 
 def changeBut(event):
     event.widget["background"] = "red"
+
 # виджет, кнопочка меняется на красную
 
 def for_knopki():
@@ -52,7 +53,8 @@ def kino():
                      )
         but.pack()
 
-nameq = []
+
++++++++++++++++++++++++++++++++++++-++nameq = []
 
 for s in films:
     name = s

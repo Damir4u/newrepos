@@ -4,7 +4,10 @@ with open("movies.txt", "r") as file:
     str1 = file.readline()
     str2 = file.readline()
     str3 = file.readline()
-films = [str1, str2, str3]
+    str4 = file.readline()
+    str5 = file.readline()
+    str6 = file.readline()
+films = [str1, str2, str3, str4, str5, str6]
 # открывает текстовый док, считываем построчно
 
 def changeBut(event):
@@ -53,16 +56,15 @@ def kino():
                      )
         but.pack()
 
-
-+++++++++++++++++++++++++++++++++++-++nameq = []
+nameq = []
 
 for s in films:
     name = s
     nameq.append(name)
 root = Tk()
-root.geometry("400x189")
+root.geometry("400x380")
 root.title("Сеансы на фильмы")
-for q in range(3):
+for q in range(6):
     but = Button(root, text=films[q],  # текст кнопки
                 background="#ccc",  # фоновый цвет кнопки
                 foreground="#555",  # цвет текста

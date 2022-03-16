@@ -650,7 +650,7 @@ btn_place40 = Button(text="Место 2.5", height=5, width=20, bg='green')
 
 
 
-canvas = Canvas(boss_menu, width = 19200, height=1080, bg="white") 
+canvas = Canvas(window, width = 19200, height=1080, bg="white") 
 canvas.pack()
 canvas.create_line(700,0,700,1080, fill="black", tag="lines")
 canvas.create_line(700,150,1920,150, fill="black", tag="lines")

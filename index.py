@@ -11,7 +11,7 @@ window.title("Smart-cinema")
 window.attributes('-fullscreen', True)
 db = openpyxl.load_workbook('database.xlsx')
 sheets = db.sheetnames
-sheet = db.active
+sheet = db.activeg
 fon = IntVar()
 fon.set(1)
 var = IntVar()
